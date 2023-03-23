@@ -18,6 +18,8 @@ jobs:
         with:
           dotnet-version: '7.0.x'
       - run: dotnet build
+      - name: Install Sonar global tool
+        run: dotnet tool install --global dotnet-sonarscanner
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
