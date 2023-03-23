@@ -11,5 +11,4 @@ if (x < 0)
   new ArgumentException("x must be nonnegative");
 }
 
-// TODO: Use an older nuget dependency to test Dependabot
 // TODO: Create more vulnerabilities to test Sonarcloud such as a weak hashing algorithm
