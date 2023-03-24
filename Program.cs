@@ -11,4 +11,10 @@ if (x < 0)
   new ArgumentException("x must be nonnegative");
 }
 
+const int MAX = 100;
+if(MAX == 100)
+{
+  Console.WriteLine("MAX is exactly 100");
+}
+
 // TODO: Create more vulnerabilities to test Sonarcloud such as a weak hashing algorithm
