@@ -26,6 +26,7 @@ class Program
         }
 
         
+        // Okay, this is a bit silly too
         const int MAX = 100;
         if (MAX == 100)
         {
