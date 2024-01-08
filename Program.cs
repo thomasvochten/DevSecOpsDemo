@@ -44,6 +44,10 @@ class Program
         Console.WriteLine("SAS URL is: " + sas_url);
 
         var TheKeysToTheKingdom = "muwk2LUAW75LekiiKMEu326hJzov9xA2JxkWBXVZEV6fAzFurd3D4Q==";
+
+        if (1) {
+            Console.WriteLine("This is always true");
+        }
 }
 }
 
