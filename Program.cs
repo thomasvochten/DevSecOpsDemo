@@ -15,8 +15,8 @@ class Program
         Console.WriteLine("Let's get this party started!");
 
         // Deliberately hardcoded password
-        var password = "jpXnaHRfCd6xD9v7A8zVYyTkuNGcLQ";
-        Console.WriteLine("Password is: " + password);
+        var thismightwork = "jpXnaHRfCd6xD9v7A8zVYyTkuNGcLQ";
+        Console.WriteLine("There you go: " + thismightwork);
 
         // Something silly
         var x = -1;
@@ -43,7 +43,7 @@ class Program
         Console.WriteLine("SAS token is: " + sas_token);
         Console.WriteLine("SAS URL is: " + sas_url);
 
-        // TODO: Create more vulnerabilities to test Sonarcloud such as a weak hashing algorithm    }
-    }
+        var TheKeysToTheKingdom = "muwk2LUAW75LekiiKMEu326hJzov9xA2JxkWBXVZEV6fAzFurd3D4Q==";
+}
 }
 
